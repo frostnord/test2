@@ -10,8 +10,8 @@ public class AndroidLauncher extends AndroidApplication {
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		AndroidApplicationConfiguration confi1g = new AndroidApplicationConfiguration();
-		initialize(new MyGdxGame(), confi1g);
+		AndroidApplicationConfiguration confi2g = new AndroidApplicationConfiguration();
+		initialize(new MyGdxGame(), confi2g);
 	}
 
 
